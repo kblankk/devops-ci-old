@@ -64,4 +64,5 @@ jobs:
 
             - name: Run E2E tests
               run: |
+                cd integration-test
                 npx cypress run
