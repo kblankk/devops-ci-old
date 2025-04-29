@@ -55,7 +55,7 @@ jobs:
             
             - name: Install dependencies
               run: |
-                cd integration-tests
+                cd integration-test
                 npm install
 
             - name: Run E2E tests
