@@ -3,7 +3,8 @@ run-name: Pipeline de CI
 on:
   push:
     branches:
-      - main
+      - dev
+  workflow_dispatch:
 jobs:
   build:
     name: Build and analyze
