@@ -1,10 +1,10 @@
 name: integration
 run-name: Pipeline de CI
 on:
-  # pull_request:
-  #   branches:
-  #     - dev
-    workflow_dispatch:
+   pull_request:
+     branches:
+       - dev
+ #  workflow_dispatch:
 jobs:
   build:
     name: Build and analyze
